@@ -1,0 +1,131 @@
+
+
+/*Fonts imported courtesy of google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/*navbar styles*/
+
+.navbar-inverse .navbar-brand{   
+    font-size: 25px;
+    color: #0E9F0E;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #0E9F0E;
+    font-family: 'Anton', sans-serif;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.bgimage{
+  background-image: url('images/sports-fitness-body-building-iron-161557.jpeg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+}
+
+ h2, h3, h4{
+    font-family: 'Anton', sans-serif;
+    color: #0E9F0E;
+    text-shadow: 2px 2px 2px lightgrey;
+}   
+
+p{
+    font-size: 13px;
+    line-height: 21px;
+}
+
+h1{
+    padding-top: 250px;
+    color: #0E9F0E;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#headtitle{
+    color: #0E9F0E;
+    text-shadow: 2px 2px 2px black;
+}
+
+#headtitle2{
+    color: #0E9F0E;
+    text-shadow: 2px 2px 2px black;
+}
+
+#headtitle3{
+    color: #0E9F0E;
+    text-shadow: 2px 2px 2px black;
+}
+
+#intro, #intro2, #intro3, #intro4{
+    padding-top: 50px;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-width: thin;
+    padding-bottom: 50px;
+}
+
+#truesquat{
+    padding-top: 50px;
+}
+
+#height, #femur{
+    width: 150px;
+}
+
+.btn-primary{
+    background-color: #0E9F0E;
+    border-color: black;
+    color: whitesmoke;
+}
+
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+.txt-railway{
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+#social-fb, #social-tw,#social-gp,#social-em{
+    color: black;
+}
+
+
+ #social-fb:hover {
+     color: #0E9F0E;
+ }
+ #social-tw:hover {
+     color: #0E9F0E;
+ }
+ #social-gp:hover {
+     color: #0E9F0E;
+ }
+ #social-em:hover {
+     color: #0E9F0E;
+ }
